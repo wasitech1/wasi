@@ -15,16 +15,16 @@ global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI=process.env.DATABASE_URL || ""
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
+global.github=process.env.GITHUB|| "https://github.com/Itxxwasi/WASI-TECH-BOT-V1";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/10f668308c6df8c40b84a.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923007087913" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.devs = "923192173398" // Developer Contact
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923192173398";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923192173398";
 
 
 
@@ -58,17 +58,14 @@ global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923007087913";
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
-
-  HANDLERS : process.env.PREFIX || ".",
-  BRANCH : process.env.BRANCH   || "main",
+  menu: process.env.MENU || "", 
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "© ＧＥＮＲＡＴＥＤ ＢＹＷａｓｉ 🇵🇰" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "© ＧＥＮＲＡＴＥＤ ＢＹＷａｓｉ 🇵🇰" , 
  
   author: process.env.PACK_AUTHER || "ｗａｓｉ ｔｅｃｈ ｂｏｔ",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "𝗪𝗔𝗦𝗜 𝗫 𝗕𝗢𝗧",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  ownername:process.env.OWNER_NAME|| "It'x WASI",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
@@ -81,7 +78,7 @@ module.exports = {
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
-  aitts_Voice_Id : process.env.AITTS_ID || "37",
+  aitts_Voice_Id : process.env.AITTS_ID || "25",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
