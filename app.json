@@ -12,25 +12,13 @@
       "value": "𝘅 𝗪𝗔𝗦𝗜 𝘅 ",
       "required" :true
     },   
-     
-    "WELCOME": {
-      "description": "put 'false' if you don't want to enable WELCOME ",
-      "value": "true",
-      "required" :false
-    },
-     
-    "GOODBYE": {
-      "description": "put 'false' or 'true' to enable & disable GOODBYE ",
-      "value": "false",
-      "required" :false
-    },
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required" :false,    
       "value": "𝗫 𝗪𝗔𝗦𝗜 𝗠𝗗"
     }, 
     "IMAGE": {
-      "description": "Image for bot",
+      "description": "add any image url here which you want to set for menu",
       "required" :false,    
       "value": "https://telegra.ph/file/10f668308c6df8c40b84a.jpg"
     }, 
@@ -39,16 +27,8 @@
       "required" :false,    
       "value": "Asia/Karachi"
     },  
-    "FLUSH": {
-      "description": " Make it 'true' if bot connected but not responed (After deployement!)",
-      "required" :false,    
-      "value": "true"
-    }, 
-    "WARN_COUNT": {
-      "description": " Warn count for users to kick/block when warn limit exceed!",
-      "required" :false,    
-      "value": "3"
-    }, 
+    
+    
     "READ_COMMAND": {
       "description": " Read bot cmds",
       "required" :false,    
@@ -113,7 +93,7 @@
       "required" :false
     }, 
     "ELEVENLAB_API_KEY": {
-      "description": "Put your ElevenLab api key here for Aitts. Watch tutorial from https://youtu.be/HCDcdPtkwg4 ",
+      "description": "Put your ElevenLab api key here for Aitts. for ai voices ",
       "value": "",
       "required" :false
     }, 
